@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-	int i, j;
+	int i, count = '0', j;
 
 	for (i = '0'; i <= '9'; i++)
 	{
-		for (j = '0'; j <= '9'; j++)
+		for (j = count; j <= '9'; j++)
 		{
 			if (i != j)
 			{
@@ -33,9 +33,8 @@ int main(void)
 				putchar(' ');
 			}
 		}
-		j++;
+		count++;
 	}
 	putchar('\n');
 	return (0);
 }
-
