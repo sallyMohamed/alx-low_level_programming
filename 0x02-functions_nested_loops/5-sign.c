@@ -14,8 +14,6 @@ int print_sign(int n)
 {
 	int n;
 
-	for (n = 0; n <= n; n++)
-	{
 	if (n > 0)
 	{
 		_putchar('+');
@@ -30,6 +28,5 @@ int print_sign(int n)
 	{
 		_putchar('-');
 		return (-1);
-	}
 	}
 }
