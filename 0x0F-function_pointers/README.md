@@ -1,0 +1,1 @@
+redmi for pointer
